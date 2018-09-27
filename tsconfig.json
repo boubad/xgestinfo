@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "baseUrl": "src"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./__tests__/**/*.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
